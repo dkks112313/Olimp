@@ -1,0 +1,22 @@
+{
+  "name": "windows",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "addons": "node-gyp configure build",
+    "build": "tsc",
+    "start": "node .",
+    "dev": "npm run addons && npm run build && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-addon-api": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0"
+  }
+}
