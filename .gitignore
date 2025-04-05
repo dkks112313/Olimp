@@ -1,7 +1,7 @@
-./backend/node_modules
-./backend/dist
-./backend/.idea
-./windows/node_modules
-./windows/dist
-./windows/build
-./windows/.idea
+backend/node_modules
+backend/dist
+backend/.idea
+windows/node_modules
+windows/dist
+windows/build
+windows/.idea
