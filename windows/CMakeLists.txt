@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
+target_compile_features(your_target PUBLIC cxx_std_17)
 
 # Вказуємо назву проекту
 project(MyNapiAddon)

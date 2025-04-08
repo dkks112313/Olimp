@@ -1,3 +1,8 @@
-const addon = require('../build/Release/addon');
+const addon = require('../build/Release/screen_capture');
 
-console.log(addon.helloWorld());  // Должно вывести "Hello, World!"
+const capture = new addon.SimpleCapture();
+capture.startCapture();
+
+setTimeout(() => {
+    capture.startCapture();
+}, 50000);
